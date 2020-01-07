@@ -3167,11 +3167,13 @@ input, select, textarea {
 				.feature:before, .feature:after {
 					display: none;
 				}
-
+				
+				/*Fixed Code here*/
 				.feature .image {
 					float: none;
-					height: 15em;
+					height: 100vw; 
 					width: 100%;
+					margin: 0 0 3vw 0;
 				}
 
 				.feature .content {
