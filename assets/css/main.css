@@ -2689,7 +2689,7 @@ input, select, textarea {
 			}
 
 		.feature.right {
-			text-align: right;
+			text-align: left;
 		}
 
 			.feature.right .image {
