@@ -2597,20 +2597,7 @@ input, select, textarea {
 			font-size: 0.8em;
 		}
 
-/* Box */
 
-	.box {
-		background: #ffffff;
-		border: solid 1px rgba(224, 224, 224, 0.75);
-		margin-bottom: 6em;
-		padding: 3.5em;
-	}
-
-		.box.alt {
-			background: none;
-			border: none;
-			padding: 0;
-		}
 
 /* Feature */
 
@@ -2671,6 +2658,9 @@ input, select, textarea {
 		.feature.left {
 			text-align: left;
 		}
+			.feature.left .other{
+				padding-bottom: 15em;
+			}
 
 			.feature.left .image {
 				float: left;
@@ -2710,6 +2700,10 @@ input, select, textarea {
 		.feature.long .content {
 			padding-top: 0;
 		}
+
+
+
+		
 
 /* Header */
 
