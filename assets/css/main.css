@@ -3347,4 +3347,11 @@ input, select, textarea {
 					display: none;
 				}
 
-	}
+    }
+    
+    /* digiriotdev@gmail.com css fixes and faq */
+    .actions .image {
+        margin: 0 auto !important;
+        text-align: center !important;
+    }
+}
