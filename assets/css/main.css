@@ -2311,7 +2311,35 @@ input, select, textarea {
 		ul.default li {
 			padding-left: 0.5em;
 		}
-
+/* Navbar */
+.navbar {
+	overflow: hidden;
+	background-color: #333;
+	position: fixed; /* Set the navbar to fixed position */
+	top: 0; /* Position the navbar at the top of the page */
+	width: 100%; /* Full width */
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  
+  /* Change background on mouse-over */
+  .navbar a:hover {
+	background: #ddd;
+	color: black;
+  }
+  
+  /* Main content */
+  .main {
+	margin-top: 30px; /* Add a top margin to avoid content overlay */
+  }
 /* Actions */
 
 	ul.actions {
@@ -2342,6 +2370,20 @@ input, select, textarea {
 			ul.actions.special li:first-child {
 				padding-left: 0;
 			}
+
+		ul.actions.special.images {
+				-moz-justify-content: center;
+				-webkit-justify-content: center;
+				-ms-justify-content: center;
+				justify-content: center;
+				width: 100%;
+				padding-left: 0;
+				margin-top: 2.5em;
+			}
+	
+				ul.actions.special.images li:first-child {
+					padding-left: 0em;
+				}
 
 		ul.actions.stacked {
 			-moz-flex-direction: column;
