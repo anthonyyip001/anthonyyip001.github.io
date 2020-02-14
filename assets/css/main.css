@@ -3370,6 +3370,16 @@ input, select, textarea {
         transition: 0.4s;
       }
 
+      .accordion p {
+          margin: 0px;
+          padding: 0px;
+          float: left;
+          padding-top: 3px;
+          font-weight: bolder;
+          font-size: 14px;
+
+      }
+
       
       .active, .accordion:hover {
         background-color: #ccc;
